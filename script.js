@@ -1,2 +1,0 @@
-const a='hernanuber.prex';
-copy.onclick=async()=>{try{await navigator.clipboard.writeText(a);if(navigator.vibrate)navigator.vibrate(70);status.textContent='✅ Alias copiado';copy.textContent='✔ Copiado';setTimeout(()=>copy.textContent='📋 Copiar alias',1800);}catch{status.textContent='Copiá manualmente el alias.'}};
