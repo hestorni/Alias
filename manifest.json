@@ -1,0 +1,25 @@
+{
+  "name": "Hernán · Pagos Prex",
+  "short_name": "Hernán Prex",
+  "description": "Alias de pago Prex para viajes de Uber y DiDi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090c13",
+  "theme_color": "#090c13",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/uber.png",
+      "sizes": "254x252",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/MP.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
